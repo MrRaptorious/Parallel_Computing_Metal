@@ -8,6 +8,7 @@
 import Foundation
 import MetalKit
 
+// Klasse um die Renderpipeline zu bauen, hier wird viel Apple speziefisches Zeug gemacht
 class PipelineBuilder {
     
     static func BuildPipeline(metalDevice: MTLDevice, library: MTLLibrary, vsEntry: String, fsEntry: String, vertexDescriptor: MDLVertexDescriptor) -> MTLRenderPipelineState {

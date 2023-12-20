@@ -8,6 +8,7 @@
 struct Agent {
     vector_float2 position;
     float angle;
+    vector_float3 color;
 };
 
 struct Size{
